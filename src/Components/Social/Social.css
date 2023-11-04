@@ -1,0 +1,61 @@
+.social-media {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    z-index: 998;
+}
+
+.social-icons {
+    border-radius: 0 4px 4px 0;
+    margin: 0 auto;
+}
+
+.social-icons a {
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #33425f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    margin-left: -91px;
+    transition: .3s ease;
+}
+
+.social-icons a:nth-child(1) {
+    border-radius: 0 4px 0 0;
+}
+
+.social-icons a:last-child {
+    border-radius: 0 0 4px 0;
+}
+
+.social-icons a:nth-child(1):hover {
+    margin-left: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.social-icons a:nth-child(2):hover {
+    margin-left: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.social-icons a:nth-child(3):hover {
+    margin-left: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.social-icons a svg {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+    .social-media {
+        display: none;
+    }
+
+}

@@ -1,0 +1,106 @@
+#experience {
+    padding: 4rem 0;
+}
+
+.experience-title h1 {
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 80px;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.experience-title h1::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+}
+
+.experience-list {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 5rem;
+}
+
+.experience-icons {
+    font-size: 4rem;
+    background-color: rgba(136, 136, 136, 0.062);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    border-radius: 4px;
+    transition: .3s ease;
+}
+
+.experience-icons:nth-child(1) {
+    border: 1px solid #ff6b39;
+    background-color: rgba(255, 107, 57, 0.165);
+    box-shadow: 0 2px 80px rgba(255, 107, 57, 0.445);
+}
+
+.experience-icons:nth-child(2) {
+    border: 1px solid #20adff;
+    background-color: rgba(32, 173, 255, 0.165);
+    box-shadow: 0 2px 80px rgba(32, 173, 255, 0.445);
+}
+
+.experience-icons:nth-child(3) {
+    border: 1px solid #eaee01;
+    background-color: rgba(234, 238, 1, 0.165);
+    box-shadow: 0 2px 80px rgba(234, 238, 1, 0.445);
+
+}
+
+.experience-icons:nth-child(4) {
+    border: 1px solid #00be29;
+    background-color: rgba(0, 190, 41, 0.165);
+    box-shadow: 0 2px 80px rgba(0, 190, 41, 0.445);
+}
+
+.experience-icons:nth-child(5) {
+    border: 1px solid #1fe5ff;
+    background-color: rgba(31, 229, 255, 0.165);
+    box-shadow: 0 2px 80px rgba(31, 229, 255, 0.445);
+}
+
+.experience-icons:nth-child(6) {
+    border: 1px solid #F29111;
+    background-color: rgba(242, 145, 17, 0.165);
+    box-shadow: 0 2px 80px rgba(242, 144, 17, 0.445);
+}
+
+.experience-icons:hover {
+    transform: scale(.8);
+}
+
+@media(max-width: 1024px) {
+    .experience-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .experience-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .experience-title h1 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 320px) {
+    .experience-list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+}
