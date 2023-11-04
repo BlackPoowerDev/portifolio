@@ -1,0 +1,51 @@
+#about {
+    width: 100%;
+    padding: 4rem 0;
+    background-color: rgba(136, 136, 136, 0.062);
+}
+
+.about-title h1 {
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 80px;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.about-title h1::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+}
+
+.about-text {
+    width: 60%;
+}
+
+.about-text p {
+    color: #ddd;
+    font-size: 1.6rem;
+}
+
+
+
+@media(max-width: 1024px) {
+    .about-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-title h1 {
+        font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 1.4rem;
+    }
+}
