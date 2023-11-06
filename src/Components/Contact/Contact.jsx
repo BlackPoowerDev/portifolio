@@ -1,7 +1,24 @@
-import React from "react"
+import React,{useEffect} from "react"
 import "./Contact.css"
+import scrollreveal from "scrollreveal"
 
 const Contact = () =>{
+
+    useEffect( ()=>{
+        scrollreveal().reveal('.contact-title',{
+            origin: 'top',
+            distance: '100px',
+            duration: 1500,
+            delay: 600,
+        })
+
+        scrollreveal().reveal('.form-contact',{
+            origin: 'top',
+            distance: '100px',
+            duration: 1500,
+            delay: 500,
+        })
+    },[])
     return (
         <>
             <section className="contact" id="contact">

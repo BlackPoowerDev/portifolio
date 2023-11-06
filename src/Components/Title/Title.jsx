@@ -7,13 +7,13 @@ import scrollreveal from "scrollreveal"
 const Title = () =>{
     useEffect( () =>{
         scrollreveal().reveal('.user-text',{
-            duration: 1000,
+            duration: 1200,
             delay: 100,
             origin: "top",
             distance: "120px"
         })
         scrollreveal().reveal('.user-img',{
-            duration: 1000,
+            duration: 1200,
             delay: 100,
             origin: "bottom",
             distance: "120px"

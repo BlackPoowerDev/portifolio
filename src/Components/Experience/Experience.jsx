@@ -1,11 +1,29 @@
-import React from "react"
+import React, {useEffect} from "react"
 import "./Experience.css"
 import {AiOutlineHtml5} from "react-icons/ai"
 import {BiLogoCss3,BiLogoJavascript, BiLogoReact} from "react-icons/bi"
 import {SiMysql} from "react-icons/si"
 import {DiNodejs} from "react-icons/di"
+import scrollreveal from "scrollreveal"
 
 const Experience = () =>{
+    useEffect( ()=>{
+        scrollreveal().reveal('.experience-title',{
+            origin: 'left',
+            distance: '100px',
+            duration: 1500,
+            delay: 500,
+        })
+        const portfolio = document.querySelectorAll('.experience-icons')
+        portfolio.forEach( (el) =>{
+            scrollreveal().reveal(el,{
+                origin: 'right',
+                distance: '100px',
+                duration: 1500,
+                delay: 500,
+            })
+        })
+    },[])
     return (
         <>
             <section className="experience" id="experience">
