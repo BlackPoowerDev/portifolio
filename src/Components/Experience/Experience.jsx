@@ -29,7 +29,7 @@ const Experience = () =>{
             <section className="experience" id="experience">
                 <div className="container">
                     <div className="experience-title">
-                        <h1>Experience</h1>
+                        <h1>Experiência</h1>
                     </div>
                     <div className="experience-list">
                         <span className="experience-icons"><AiOutlineHtml5/> </span>

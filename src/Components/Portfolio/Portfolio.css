@@ -16,7 +16,6 @@
     display: inline-block;
     letter-spacing: 2px;
     text-align: center;
-
 }
 
 .portfolio-title h1::after {
@@ -62,11 +61,18 @@
 
 .portfolio-navigate a {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1rem 2rem;
-    text-align: center;
     color: #fff;
     text-decoration: none;
+    gap: 0.7rem;
     transition: .3s 100ms ease;
+}
+
+.portfolio-navigate a svg {
+    font-size: 1.4rem;
 }
 
 .portfolio-navigate a:hover {
