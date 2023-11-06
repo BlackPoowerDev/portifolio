@@ -22,7 +22,6 @@ const Nav = () =>{
                         <a href="./">Rene s.</a>
                     </div>
                     <ul className="nav-ul-list">
-                        <li className="nav-li-list home">Menu</li>
                         <li className="nav-li-list About">Sobre mim</li>
                         <li className="nav-li-list Project">Projetos</li>
                         <li className="nav-li-list Experience">Experiência</li>
