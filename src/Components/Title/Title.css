@@ -7,6 +7,10 @@
     gap: 10rem;
 }
 
+.user-text {
+    visibility: hidden;
+}
+
 .user-text h1 {
     color: #fff;
     font-size: 3rem;

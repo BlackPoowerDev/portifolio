@@ -8,13 +8,11 @@ const Title = () =>{
     useEffect( () =>{
         scrollreveal().reveal('.user-text',{
             duration: 1200,
-            delay: 2100,
             origin: "top",
             distance: "120px"
         })
         scrollreveal().reveal('.user-img',{
             duration: 1200,
-            delay: 2100,
             origin: "bottom",
             distance: "120px"
         })

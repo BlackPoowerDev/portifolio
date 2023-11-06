@@ -13,28 +13,31 @@ import {AiOutlineLoading3Quarters} from "react-icons/ai"
 const App = () =>{
     const [loading, setloading] = useState(true)
     useEffect(() =>{
-        setTimeout( ()=>{
+        const timeout = setTimeout( ()=>{
             setloading(false)
         },2000)
+        return () => clearTimeout(timeout);
     },[])
     return(
         <>
-        {loading ? <div className="load">
+        {loading ? 
+            <div className="load">
                 <div className="load-center">
                     <AiOutlineLoading3Quarters/>
                 </div>
-            </div>: ''}
-            
-            <header className="header">
-                <Nav/>
-                <Social/>
-                <Title/>
-            </header>
-
-            <About/>
-            <Portfolio/>
-            <Experience/>
-            <Contact/>
+            </div>: 
+            <>
+                <header className="header">
+                    <Nav/>
+                    <Social/>
+                    <Title/>
+                </header>
+                <About/>
+                <Portfolio/>
+                <Experience/>
+                <Contact/>
+            </>
+        }
         </>
     )
 }
