@@ -7,7 +7,7 @@ const Social = ()=>{
         <>
             <div className="social-media">
                 <div className="social-icons">
-                    <a href="./"><span>Git Hub</span> <AiFillGithub/></a>
+                    <a href="./"><span>GitHub</span> <AiFillGithub/></a>
                     <a href="./"><span>Linkedin</span> <AiFillLinkedin/></a>
                     <a href="./"><span>E-mail</span> <AiOutlineMail/></a>
                 </div>

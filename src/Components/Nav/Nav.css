@@ -24,6 +24,12 @@ header {
     font-size: 2.6rem;
 }
 
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.6rem;
+}
+
 .toggle-icon svg {
     width: 1.5rem;
     height: 1.5rem;

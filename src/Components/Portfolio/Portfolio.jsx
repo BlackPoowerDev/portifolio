@@ -36,31 +36,31 @@ const Portfolio = () =>{
                         <div className="portfolio-itens">
                             <img src={relogio} alt="relogio-digital" />
                             <div className="portfolio-navigate">
-                                <a href="./"><AiFillGithub/> Github</a>
+                                <a href="https://github.com/BlackPoowerDev/Relogio" target="_blank" rel="noreferrer"><AiFillGithub/> Github</a>
                             </div>
                         </div>
                         <div className="portfolio-itens">
                             <img src={previsao} alt="previsao-do-tempo" />
                             <div className="portfolio-navigate">
-                                <a href="./"><AiFillGithub/> Github</a>
+                                <a href="https://github.com/BlackPoowerDev/Previsao-do-tempo" target="_blank" rel="noreferrer"><AiFillGithub/> Github</a>
                             </div>
                         </div>
                         <div className="portfolio-itens">
                             <img src={pokemon} alt="pokemon" />
                             <div className="portfolio-navigate">
-                                <a href="./"><AiFillGithub/> Github</a>
+                                <a href="https://github.com/BlackPoowerDev/Pokemon" target="_blank" rel="noreferrer"><AiFillGithub/> Github</a>
                             </div>
                         </div>
                         <div className="portfolio-itens">
                             <img src={cardapio} alt="cardapio" />
                             <div className="portfolio-navigate">
-                                <a href="./"><AiFillGithub/> Github</a>
+                                <a href="https://github.com/BlackPoowerDev/Cardapio" target="_blank" rel="noreferrer"><AiFillGithub/> Github</a>
                             </div>
                         </div>
                         <div className="portfolio-itens">
                             <img src={crud_node} alt="crud-node" />
                             <div className="portfolio-navigate">
-                                <a href="./"><AiFillGithub/> Github</a>
+                                <a href="https://github.com/BlackPoowerDev/Sqlite3-node.js" target="_blank" rel="noreferrer"><AiFillGithub/> Github</a>
                             </div>
                         </div>
                     </div>

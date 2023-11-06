@@ -19,14 +19,14 @@ const Nav = () =>{
             <div className="container">
                 <div className="nav-itens">
                     <div className="logo">
-                        Rene s.
+                        <a href="./">Rene s.</a>
                     </div>
                     <ul className="nav-ul-list">
-                        <li className="nav-li-list home">Home</li>
-                        <li className="nav-li-list About">About</li>
-                        <li className="nav-li-list Project">Project</li>
-                        <li className="nav-li-list Experience">Experience</li>
-                        <li className="nav-li-list Contact">Contact</li>
+                        <li className="nav-li-list home">Menu</li>
+                        <li className="nav-li-list About">Sobre mim</li>
+                        <li className="nav-li-list Project">Projetos</li>
+                        <li className="nav-li-list Experience">Experiência</li>
+                        <li className="nav-li-list Contact">Contato</li>
                     </ul>
                 </div>
             </div>

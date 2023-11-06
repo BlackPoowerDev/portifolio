@@ -24,7 +24,7 @@ const Contact = () =>{
             <section className="contact" id="contact">
                 <div className="container">
                     <div className="contact-title">
-                        <h1>Contact</h1>
+                        <h1>Contato</h1>
                     </div>
                     <form action="" className="form-contact">
                         <div className="contact-group">
