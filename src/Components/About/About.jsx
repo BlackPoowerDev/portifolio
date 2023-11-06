@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, {useEffect} from "react"
 import scrollreveal from "scrollreveal"
 import "./About.css"
@@ -19,11 +19,7 @@ const About = () =>{
             distance: "150px"
         })
     },[])
-=======
-import "./About.css"
 
-const About = () =>{
->>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
     return (
         <>
             <section className="section" id="about">

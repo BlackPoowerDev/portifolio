@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 import React, {useEffect} from "react"
-=======
-import React from "react"
->>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
 import "./Experience.css"
 import {AiOutlineHtml5} from "react-icons/ai"
 import {BiLogoCss3,BiLogoJavascript, BiLogoReact} from "react-icons/bi"
 import {SiMysql} from "react-icons/si"
 import {DiNodejs} from "react-icons/di"
-<<<<<<< HEAD
 import scrollreveal from "scrollreveal"
 
 const Experience = () =>{
@@ -29,10 +24,6 @@ const Experience = () =>{
             })
         })
     },[])
-=======
-
-const Experience = () =>{
->>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
     return (
         <>
             <section className="experience" id="experience">

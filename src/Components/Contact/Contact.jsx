@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React,{useEffect} from "react"
 import "./Contact.css"
 import scrollreveal from "scrollreveal"
@@ -20,12 +19,6 @@ const Contact = () =>{
             delay: 500,
         })
     },[])
-=======
-import React from "react"
-import "./Contact.css"
-
-const Contact = () =>{
->>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
     return (
         <>
             <section className="contact" id="contact">
