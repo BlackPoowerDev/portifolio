@@ -17,7 +17,7 @@ const Experience = () =>{
         const portfolio = document.querySelectorAll('.experience-icons')
         portfolio.forEach( (el) =>{
             scrollreveal().reveal(el,{
-                origin: 'right',
+                origin: 'left',
                 distance: '100px',
                 duration: 1500,
                 delay: 500,
