@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useEffect} from "react"
 import "./Portfolio.css"
 import img1 from "../../assets/imgs/portfolio1.png"
@@ -17,6 +18,12 @@ const Portfolio = () =>{
             distance: "200px"
         })
     },[])
+=======
+import React from "react"
+import "./Portfolio.css"
+import img1 from "../../assets/imgs/portfolio1.png"
+const Portfolio = () =>{
+>>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
     return(
         <>
             <section className="portfolio" id="portfolio">

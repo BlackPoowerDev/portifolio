@@ -11,7 +11,10 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "scrollreveal": "^4.0.9",
+=======
+>>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -37,8 +40,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^6.0.0"
+=======
+>>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
   }
 }

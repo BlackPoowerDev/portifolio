@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useEffect} from "react"
 import "./Title.css"
 import imgUser from "../../assets/imgs/user.png"
@@ -19,6 +20,15 @@ const Title = () =>{
             distance: "120px"
         })
     },[])
+=======
+import React from "react"
+import "./Title.css"
+import imgUser from "../../assets/imgs/user.png"
+
+import {HiOutlineArrowNarrowRight} from "react-icons/hi"
+
+const Title = () =>{
+>>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
     return(
         <>
             <div className="container">
@@ -29,8 +39,12 @@ const Title = () =>{
                         <button className="portfolio">Portfólio <HiOutlineArrowNarrowRight/></button>
                     </div>
                     <div className="user-img">
+<<<<<<< HEAD
                         <img className="img-profile" src={imgUser} alt="user-img" /> 
                        
+=======
+                        <img src={imgUser} alt="user-img" />
+>>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
                     </div>
                 </div>
             </div>

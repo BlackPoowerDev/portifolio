@@ -1,13 +1,23 @@
 .profile-user {
     width: 100%;
+<<<<<<< HEAD
     height: 100vh;
+=======
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+>>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10rem;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
 .user-text h1 {
     color: #fff;
     font-size: 3rem;
@@ -20,6 +30,7 @@
     transition: .3s ease;
 }
 
+<<<<<<< HEAD
 .user-img {
     position: relative;
     visibility: hidden;
@@ -30,11 +41,14 @@
     transition: .3s ease;
 }
 
+=======
+>>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
 .user-img::before {
     position: absolute;
     content: '';
     width: 300px;
     height: 300px;
+<<<<<<< HEAD
     background-color: #42c3ff88;
     border-radius: 50%;
     filter: blur(50px);
@@ -42,6 +56,21 @@
     z-index: -1;
 }
 
+=======
+    background-color: #42c3ffc4;
+    border-radius: 50%;
+    filter: blur(100px);
+    -webkit-filter: blur(100px);
+    bottom: -20px;
+    z-index: -1;
+}
+
+.user-img img {
+    width: 300px;
+    transition: .3s ease;
+}
+
+>>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
 .user-text p {
     margin-bottom: 10px;
 }

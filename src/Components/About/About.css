@@ -4,10 +4,13 @@
     background-color: rgba(136, 136, 136, 0.062);
 }
 
+<<<<<<< HEAD
 :is(.about-title, .about-text) {
     visibility: hidden;
 }
 
+=======
+>>>>>>> b198995dfc8a355ef4653d697cb2f562c63ceb6d
 .about-title h1 {
     font-size: 2.8rem;
     color: #fff;
