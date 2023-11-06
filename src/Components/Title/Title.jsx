@@ -1,10 +1,24 @@
-import React from "react"
+import React, {useEffect} from "react"
 import "./Title.css"
 import imgUser from "../../assets/imgs/user.png"
-
 import {HiOutlineArrowNarrowRight} from "react-icons/hi"
+import scrollreveal from "scrollreveal"
 
 const Title = () =>{
+    useEffect( () =>{
+        scrollreveal().reveal('.user-text',{
+            duration: 1000,
+            delay: 100,
+            origin: "top",
+            distance: "120px"
+        })
+        scrollreveal().reveal('.user-img',{
+            duration: 1000,
+            delay: 100,
+            origin: "bottom",
+            distance: "120px"
+        })
+    },[])
     return(
         <>
             <div className="container">
@@ -15,7 +29,8 @@ const Title = () =>{
                         <button className="portfolio">Portfólio <HiOutlineArrowNarrowRight/></button>
                     </div>
                     <div className="user-img">
-                        <img src={imgUser} alt="user-img" />
+                        <img className="img-profile" src={imgUser} alt="user-img" /> 
+                       
                     </div>
                 </div>
             </div>
