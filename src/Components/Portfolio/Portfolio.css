@@ -50,6 +50,7 @@
 .portfolio-itens img {
     margin: 0;
     padding: 0;
+    border-radius: 4px 4px 0 0;
     width: 100%;
 }
 

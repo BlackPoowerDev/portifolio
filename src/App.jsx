@@ -18,6 +18,23 @@ const App = () =>{
         },2000)
         return () => clearTimeout(timeout);
     },[])
+
+    useEffect(() =>{
+        if(loading === false){
+            const navLinks = document.querySelectorAll('.nav-li-list')
+            navLinks.forEach( (e) =>{
+                e.addEventListener('click', (el) =>{
+                    scrollPage(el.target.classList[1])
+                })
+            })
+        }
+    },[loading])
+
+    const scrollPage = (value) =>{
+        const scroll = document.getElementById(`${value.toLowerCase()}`);
+        scroll.scrollIntoView({behavior: "smooth", block: "end"})
+    }
+    
     return(
         <>
         {loading ? 
