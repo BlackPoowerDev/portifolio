@@ -12,7 +12,7 @@ const Experience = () =>{
             origin: 'left',
             distance: '100px',
             duration: 1500,
-            delay: 500,
+            delay: 300,
         })
         const portfolio = document.querySelectorAll('.experience-icons')
         portfolio.forEach( (el) =>{
@@ -20,7 +20,7 @@ const Experience = () =>{
                 origin: 'left',
                 distance: '100px',
                 duration: 1500,
-                delay: 500,
+                delay: 300,
             })
         })
     },[])

@@ -42,11 +42,10 @@ const Nav = () =>{
                     </div>
                     <div className={showNavList ? 'nav-ul-list fade-in': 'nav-ul-list fade-out'}>
                         <ul className="nav-ul">
-                            <li className="nav-li-list home">Home</li>
-                            <li className="nav-li-list About">About</li>
-                            <li className="nav-li-list Project">Project</li>
-                            <li className="nav-li-list Experience">Experience</li>
-                            <li className="nav-li-list Contact">Contact</li>
+                            <li className="nav-li-list About">Sobre mim</li>
+                            <li className="nav-li-list Project">Projetos</li>
+                            <li className="nav-li-list Experience">Experiência</li>
+                            <li className="nav-li-list Contact">Contato</li>
                         </ul>
 
                         <ul className="nav-ul">
